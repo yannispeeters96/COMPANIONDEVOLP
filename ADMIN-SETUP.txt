@@ -1,0 +1,18 @@
+PET BONBAZAAR V2.2 - ADMIN SETUP
+================================
+
+Admin ID: bonbazaar-admin.dev
+Role: superadmin
+Access: full (binnen Pet BonBazaar)
+God Mode: ingebouwd
+Legacy Mode: ingebouwd
+Feature flags: standaard allemaal aan
+
+Eerste keer:
+1. Open Pet BonBazaar.
+2. Open God Mode.
+3. Stel zelf een lokaal wachtwoord van minstens 8 tekens in.
+4. Daarna is de superadmin-console voor die browser/app-installatie beschermd.
+
+Er is expres GEEN standaardwachtwoord in de broncode opgenomen.
+God Mode omzeilt geen Windows/Android-beveiliging en geeft geen toegang tot externe TikTok-accounts zonder officiële authenticatie.

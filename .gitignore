@@ -1,2 +1,12 @@
-# Google App Engine generated folder
-appengine-generated/
+﻿node_modules/
+dist/
+backup/
+canon-install-logs/
+CANON-INBOX/
+
+.env
+.env.*
+
+# Legacy mascot artwork preserved locally only
+public/canon/pet-yannis-*.jpg
+public/canon/pet-bonbazaar-release-poster.png

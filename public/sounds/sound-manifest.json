@@ -1,0 +1,38 @@
+{
+  "pack": "BonBazaar SoundPack v2",
+  "version": "2.0",
+  "format": "WAV PCM 16-bit mono, 44.1 kHz",
+  "style": "Original creator/social UI sound design",
+  "recommended_mapping": {
+    "tap_glass.wav": "secondary buttons / cards",
+    "tap_pop.wav": "primary CTA / like action",
+    "tap_deep.wav": "danger/confirm or deep menu",
+    "nav_swipe.wav": "tab/page navigation",
+    "notify_soft.wav": "general notification",
+    "notify_priority.wav": "important creator alert",
+    "message_in.wav": "new message/comment",
+    "upload_start.wav": "upload begins",
+    "upload_done.wav": "upload complete",
+    "publish.wav": "content published",
+    "like.wav": "like/reaction",
+    "follower.wav": "new follower",
+    "gift.wav": "gift/reward",
+    "milestone.wav": "creator milestone",
+    "live_enter.wav": "start Live Mode",
+    "live_exit.wav": "end Live Mode",
+    "record_start.wav": "recording start",
+    "record_stop.wav": "recording stop",
+    "gm_unlock.wav": "GM unlock",
+    "gm_popup.wav": "devLegacy popup open",
+    "gm_close.wav": "devLegacy popup close",
+    "theme_dark.wav": "Dark theme sting",
+    "theme_neon.wav": "Neon theme sting",
+    "theme_live.wav": "Live theme sting"
+  },
+  "ux_guidance": [
+    "Keep tap sounds under ~120 ms.",
+    "Let users disable UI sounds.",
+    "Use theme stings sparingly: launch, major mode changes, special milestones.",
+    "Respect silent mode and accessibility preferences where possible."
+  ]
+}

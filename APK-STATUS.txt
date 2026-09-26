@@ -1,0 +1,12 @@
+ABONAZAAR APK STATUS
+====================
+
+De volledige appfuncties zitten in deze Android/PWA-bundel.
+Deze omgeving heeft geen Android SDK/toolchain, dus er kon hier geen echte .apk worden gecompileerd of ondertekend.
+
+Direct bruikbaar op Android:
+- Termux build + lokale PWA server
+- Chrome: App installeren / Toevoegen aan startscherm
+
+Niet vals geclaimd:
+- Abonazaar.apk is NIET aanwezig zolang een echte Android build niet daadwerkelijk is uitgevoerd.
