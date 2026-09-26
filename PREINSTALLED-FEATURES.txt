@@ -1,0 +1,46 @@
+PET BONBAZAAR V2.2.0 - PREINSTALLED FEATURES
+============================================
+
+Creator interface
+- Home / Creator Control Room
+- TikTok-geïnspireerde verticale Creator Feed
+- Live Center
+- Creator Studio
+- Analytics
+- Projecten
+- Profiel
+- God Mode console
+
+Creator credit / TikTok focus
+- Creator handle: @.yannispeeters
+- Creator URL: https://www.tiktok.com/@.yannispeeters
+- TikTok-gerichte KPI-velden, Live workflow en contentplanning
+- Geen claim van officiële TikTok-ondersteuning
+- Automatische TikTok-accountdata vereist later officiële authenticatie/API-koppeling
+
+Admin / God Mode
+- Admin ID: bonbazaar-admin.dev
+- Role: superadmin
+- Access: full binnen Pet BonBazaar
+- God Mode ingebouwd en bootstrap standaard aan
+- Alle feature flags vooraf aanwezig en standaard ingeschakeld
+- Unlock All
+- Legacy Mode
+- Audit log
+- Diagnostiek export
+- Lokale data reset
+- Geen OS/security bypass
+- Geen hardcoded wachtwoord; gebruiker stelt lokaal wachtwoord in bij eerste gebruik
+- PBKDF2/SHA-256 afgeleide lokale wachtwoordhash
+
+Data
+- localStorage persistence
+- V2.1 -> V2.2 data migratie
+- JSON export/import
+- God Mode wachtwoord niet meegestuurd in gewone data-export
+
+Platform
+- Responsive desktop / Android layout
+- PWA manifest + service worker
+- Windows Electron/NSIS packaging in Windows pakket
+- Android/Termux PWA install flow in Android pakket

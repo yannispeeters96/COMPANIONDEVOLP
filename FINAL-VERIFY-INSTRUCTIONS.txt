@@ -1,0 +1,25 @@
+PET BONBAZAAR V2.2 - LAATSTE CONTROLE
+
+1. Pak bonbazaar-FINAL-RC.zip uit in een nieuwe lege map.
+2. Dubbelklik FINAL-CONVERT-WINDOWS.bat.
+3. Laat het venster volledig uitlopen. Sluit het niet tijdens npm install/tests/build.
+4. Bij een fout: stuur FINAL-VERIFY-REPORT.txt + de relevante fout uit FINAL-CONVERT.log.
+5. Bij succes: stuur alleen FINAL-VERIFY-REPORT.txt terug.
+
+Developer console:
+- Staat niet in de gewone navigatie.
+- Typ yannis terwijl de app actief is.
+- Dit opent +devLegacy.
+- Admin ID blijft vast: bonbazaar-admin.dev
+- Role: superadmin
+- Access: full binnen Pet BonBazaar
+- Bij eerste gebruik stel je zelf een lokaal wachtwoord in.
+- Pop-out / Dock terug / Sluiten zitten in de titelbalk.
+
+Sounds:
+- 24 BonBazaar SoundPack v2 WAV-bestanden zijn preinstalled onder public/sounds.
+- Interfacegeluiden zijn aan/uit te zetten via Profiel.
+- Sound themes: Dark, Neon, Live Mode.
+
+Release-regel:
+Het krachtwoord wordt pas gebruikt nadat jouw eigen FINAL CONVERT-rapport alle checks als PASS bevestigt.

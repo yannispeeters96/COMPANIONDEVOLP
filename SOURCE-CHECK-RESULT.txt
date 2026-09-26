@@ -1,0 +1,4 @@
+Verleend aan	Verleend door	Verloopdatum	Beoogde doeleinden	Beschrijvende naam	Status	Certificaatsjabloon
+Hauke Götze	SSL.com Code Signing Intermediate CA ECC R2	8/05/2027	Handtekening bij programmacode	<Geen>	    	
+Hauke Götze	SSL.com Code Signing Intermediate CA ECC R2	25/03/2027	Handtekening bij programmacode	<Geen>	    	
+Hauke Götze	Microsoft ID Verified CS EOC CA 01	20/09/2025	1.3.6.1.4.1.311.97.1.0, Handtekening bij programmacode, 1.3.6.1.4.1.311.97.195252518.348633068.292125979.299653360	<Geen>	    	

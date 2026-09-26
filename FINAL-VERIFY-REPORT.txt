@@ -1,0 +1,49 @@
+Abonazaar V2.2 - Testfase Readiness Report
+Generated: 2026-09-08
+
+STATUS: YELLOW - SOURCE READY FOR TESTFASE, NOT FULL LAUNCH READY YET
+
+FOUND SOURCE PACKAGE:
+- Abonazaar-FINAL-RC.zip was found in Library and extracted successfully.
+
+PATCH APPLIED:
+- Replaced old GM -> Enter devLegacy shortcut with typed trigger word: yannis.
+- The trigger is case-insensitive.
+- The trigger can be typed while the app is active, including inside input fields.
+- Updated devShortcut tests, App tests, source audit, and UI label.
+
+STATIC CHECKS PERFORMED:
+PASS: package.json found.
+PASS: src/ found.
+PASS: public/ found.
+PASS: vite.config.js found.
+PASS: relative imports checked by scripts-check.mjs.
+PASS: dev identity present: bonbazaar-admin.dev / superadmin / full.
+PASS: yannis trigger present.
+PASS: old GM key sequence removed from devShortcut.js.
+PASS: 24 SoundPack v2 assets present.
+
+SANDBOX TEST ATTEMPT:
+- Node.js available in sandbox: v22.16.0.
+- npm test was attempted after source patch, but Vitest was not available because node_modules was not installed.
+- npm install was attempted but timed out in the sandbox environment, so full dependency-based tests must be run locally.
+
+NOT COMPLETED IN CHAT ENVIRONMENT:
+- npm install timed out in the sandbox environment.
+- Full Vitest execution was not completed here.
+- Vite production build was not completed here.
+- Native APK build is not included in this package.
+
+LOCAL FINAL TEST COMMANDS:
+1. Open Termux or terminal in the extracted Abonazaar folder.
+2. Run:
+   npm install --no-audit --no-fund
+   npm run verify
+3. For Android phone testing, run the included Android scripts or host the PWA locally.
+
+DECISION:
+- Testfase: YES, ready to test locally.
+- Groen licht: NOT YET.
+- Go Live: NOT YET.
+
+Green light can only be given after local npm install, tests, build, and device testing pass on the target Android environment.
