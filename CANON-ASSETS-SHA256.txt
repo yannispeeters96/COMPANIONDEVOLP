@@ -1,0 +1,8 @@
+9ffe7dcd01a1e0ed12df7ba674a3883bb1fe0d91db0c9a713f8bd782fb4aba67  public/canon/pet-bonbazaar-release-poster.png
+c746a4d6fc0e4ed138a9c5710a535ec9a964b15e75e7841c45066ca6fd913c99  public/canon/pet-yannis-front.jpg
+f6c663f6572cc14ec6d24421d7943710fab0debec3733462b55922a3ad05e683  public/canon/pet-yannis-portrait.jpg
+6dd70a9abd48770fffe299f690b32b7dede77045a56ce0996287a385bf4d8f22  public/canon/pet-yannis-profile.jpg
+4dd8900666cb983a069eb5f76ed5e3940e4823988e5be671c08586a8206ba414  public/canon/pet-yannis-scene.jpg
+562d24dc9806bdec82ce380a9834e6a1b8d27be013c0c879442c1fc5230ac282  public/canon/pet-yannis-side.jpg
+fa6cacb441dbed42dae9093d2bec04b4d5b0e13f5e97ab6bcb8ac710115c7ee2  public/canon/pet-yannis-turnaround.jpg
+2880d25b9b0beff891423dc14fe8437152da6ff70d81798d17e4a9b38e172c25  public/canon/pet-yannis-wide.jpg

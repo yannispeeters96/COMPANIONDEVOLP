@@ -1,0 +1,35 @@
+{
+  "name": "abonazaar",
+  "private": true,
+  "version": "2.2.0",
+  "description": "Abonazaar V2.2 - Android/PWA edition of Pet BonBazaar Creator OS",
+  "author": "BonBazaar",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "release:check": "npm run test && npm run build",
+    "check:source": "node scripts-check.mjs",
+    "test:verbose": "vitest run --reporter=verbose",
+    "verify": "npm run check:source && npm run test && npm run build",
+    "dev:android": "vite --host 0.0.0.0 --port 5173",
+    "preview:android": "vite preview --host 0.0.0.0 --port 4173",
+    "clean": "node scripts/clean.mjs",
+    "godmode": "vite --host 0.0.0.0 --mode godmode"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.8.0",
+    "@testing-library/react": "16.3.0",
+    "@vitejs/plugin-react": "5.0.2",
+    "jsdom": "26.1.0",
+    "vite": "^7.3.6",
+    "vitest": "3.2.4"
+  }
+}

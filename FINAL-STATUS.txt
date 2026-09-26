@@ -1,0 +1,21 @@
+Abonazaar V2.2.0 - Android/PWA Full Install Package
+==================================================
+
+Preinstalled in de bron:
+- Creator Feed, Live Center, Creator Studio, Analytics, Projecten en Profiel
+- @.yannispeeters creator credit
+- veilige God Mode / bonbazaar-admin.dev / superadmin / full in-app access
+- alle feature flags aan + Unlock All + Legacy Mode
+- auditlog + diagnostiek
+- lokale opslag/back-up/import + V2.1 migratie
+- mobiele PWA-interface
+
+Statisch bevestigd in deze omgeving:
+- 17 JS/JSX-bestanden parser-groen
+- alle relatieve imports aanwezig
+- package.json geldig, versie 2.2.0
+
+Doelmachinechecks:
+INSTALL-ABONAZAAR-ANDROID.sh voert npm install, broncheck, Vitest en Vite production build uit voordat de lokale PWA-server start.
+
+Een echte .apk kon hier niet worden gebouwd: Android SDK/toolchain ontbreekt. Dit pakket wordt daarom correct als Android/PWA-bundel geleverd en niet als nep-APK.

@@ -1,0 +1,21 @@
+Pet BonBazaar V2.2.0 - Dev Test Report
+======================================
+
+In deze buildomgeving daadwerkelijk uitgevoerd:
+[PASS] package.json gelezen en geldig JSON.
+[PASS] Versiecontrole: 2.2.0.
+[PASS] 17 JS/JSX-bronbestanden geïnventariseerd.
+[PASS] Alle relatieve imports verwijzen naar bestaande bestanden.
+[PASS] Alle 17 JS/JSX-bestanden geparsed/getranspileerd door de TypeScript-parser.
+[PASS] electron/main.cjs syntaxcontrole.
+[PASS] electron/preload.cjs syntaxcontrole.
+[PASS] scripts-check.mjs syntaxcontrole.
+[PASS] Windows appId blijft be.bonbazaar.petbonbazaar voor upgradecompatibiliteit.
+[PASS] Windows artifactnaam geconfigureerd als bonbazaar-Setup-2.2.0.exe.
+
+Niet volledig uitvoerbaar in deze buildomgeving:
+[BLOCKED] npm install liep hier vast op externe dependency-downloads/netwerk-time-out.
+[BLOCKED] Daardoor konden de V2.2 Vitest-suite, Vite production build en electron-builder niet werkelijk worden uitgevoerd.
+[BLOCKED] Een echte Android APK kan hier niet worden gebouwd omdat er geen Android SDK/toolchain beschikbaar is.
+
+De meegeleverde installatiescripts voeren de ontbrekende runtime/buildchecks uit op de doelmachine en stoppen bij fouten.
